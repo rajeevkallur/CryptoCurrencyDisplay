@@ -6,7 +6,7 @@ import 'package:fluttercrypto/data/crypto_data.dart';
 class ProdCryptoRepository implements CryptoRepository {
   // https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
   String cryptoUrl =
-      "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=19b21956-4194-9429-4f315d070b61&&limit=5";
+      "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=19b219c9-7256-4194-9429-4f315d070b61&&limit=10";
 
   @override
   Future<List<Crypto>> fetchCurrencies() async {
