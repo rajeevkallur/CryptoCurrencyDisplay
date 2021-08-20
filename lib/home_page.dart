@@ -62,9 +62,9 @@ class _HomePageState extends State<HomePage> implements CryptoListViewContract {
     return new ListTile(
       leading: new FadeInImage(
           placeholder: new AssetImage('assets/2.0x/stars.png'),
-          image: new NetworkImage("https://github.com/spothq/cryptocurrency-icons/blob/master/32@2x/color/" +
+          image: new AssetImage("assets/cryptocurrencyicons/32@2x/color/" +
               currency.symbol.toLowerCase() +
-              "@2x.png")),
+              "@2x.png")),          
       title: new Text(currency.name,
           style: new TextStyle(fontWeight: FontWeight.bold)),
       subtitle:
